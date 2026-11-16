@@ -26,6 +26,8 @@ $replacements = [
     'href="artikel.php#' => 'href="artikel.html#',
     'kategori.php' => 'kategori.html',
     'artikel.php' => 'artikel.html',
+    "url('../assets/" => "url('assets/",
+    'url("../assets/' => 'url("assets/',
 ];
 
 foreach ($pages as $src => $dest) {
