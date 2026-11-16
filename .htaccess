@@ -1,0 +1,40 @@
+# AgroNusa: aturan Apache
+Options -Indexes
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Tautan lama .html diarahkan ke halaman .php yang sesuai
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(index|tentang|kategori|pertanian|perkebunan|peternakan|perikanan|teknologi-agro|artikel|kontak)\.html$ $1.php [R=301,L]
+</IfModule>
+
+# Berkas internal tidak boleh dibuka lewat browser
+<FilesMatch "\.(sqlite|sqlite-wal|sqlite-shm|json|py|md)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Cache aset statis (versi file sudah dipakai di URL CSS/JS)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType text/css "access plus 30 days"
+  ExpiresByType application/javascript "access plus 30 days"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml
+</IfModule>

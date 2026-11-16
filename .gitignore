@@ -1,0 +1,16 @@
+# OS & Editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# SQLite WAL and temp files
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Logs
+*.log

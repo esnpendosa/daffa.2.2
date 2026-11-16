@@ -1,0 +1,55 @@
+
+Warning: Undefined array key "REQUEST_METHOD" in C:\Users\msi\Downloads\agronusa-web\kontak.php on line 9
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#174D32">
+<meta name="description" content="Hubungi AgroNusa lewat formulir, email, WhatsApp, atau media sosial.">
+<title>Kontak | AgroNusa</title>
+<link rel="icon" href="assets/images/logo-icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=1794827931">
+</head>
+<body>
+<a class="skip" href="#isi">Lompat ke isi</a>
+<header class="navbar">
+ <div class="nav-inner">
+  <a class="brand" href="index.html" aria-label="AgroNusa, ke beranda"><img class="bi" src="assets/images/logo-icon.png" alt="" width="44" height="40"><img class="bw" src="assets/images/logo-wordmark.png" alt="AgroNusa" width="130" height="17"></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  <nav class="nav-links" id="menu" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="tentang.html">Tentang</a><div class="has-sub"><a href="kategori.html">Kategori</a><div class="sub"><a href="pertanian.html" style="--dot:#2E8B3A">Pertanian</a><a href="perkebunan.html" style="--dot:#D9530B">Perkebunan</a><a href="peternakan.html" style="--dot:#0E8F87">Peternakan</a><a href="perikanan.html" style="--dot:#2B6FC4">Perikanan</a><a href="teknologi-agro.html" style="--dot:#6246D6">Teknologi Agro</a></div></div><a href="artikel.html">Artikel</a><a href="kontak.html" aria-current="page">Kontak</a></nav>
+  <a class="btn nav-cta" href="kontak.html">Hubungi Kami</a>
+ </div>
+</header>
+<main id="isi">
+<section class="page-hero" style="--bg:url('../assets/images/banner-umum.svg')"><div class="container"><nav class="breadcrumb" aria-label="Jejak halaman"><a href="index.html">Beranda</a><span aria-hidden="true">/</span><span aria-current="page">Kontak</span></nav><h1>Ada yang ingin ditanyakan?</h1><p class="lead">Kirim pesan lewat formulir, email, atau WhatsApp.</p></div></section><section class="section"><div class="container contact-grid">
+ <form class="form rv" id="form-kontak" onsubmit="event.preventDefault(); document.getElementById('contact-alert').style.display='block'; this.reset();"><div id="contact-alert" style="display:none;background:#e8f5e9;color:#2e7d32;padding:14px 18px;border-radius:10px;margin-bottom:16px;border:1px solid #c8e6c9;font-size:15px;font-weight:600;">✓ Terima kasih! Pesan Anda telah dicatat. Karena website dihosting di GitHub Pages (mode statis tanpa MySQL/PHP backend), untuk respon cepat silakan hubungi via WhatsApp atau Email yang tertera di samping.</div><h2>Kirim pesan</h2>
+  <input type="hidden" name="_csrf" value="27a6b90e8cdc73af32f86d82f6105ef4">  <div style="position:absolute;left:-9999px" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+  <div class="field"><label for="nama">Nama</label><input id="nama" name="nama" type="text" autocomplete="name" maxlength="120" value="" required></div>
+  <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" maxlength="160" value="" required></div>
+  <div class="field"><label for="topik">Topik</label><select id="topik" name="topik"><option selected>Pertanyaan umum</option><option>Pertanian</option><option>Perkebunan</option><option>Peternakan</option><option>Perikanan</option><option>Teknologi Agro</option><option>Kerja sama</option></select></div>
+  <div class="field"><label for="pesan">Pesan</label><textarea id="pesan" name="pesan" maxlength="5000" required></textarea></div>
+  <button class="btn btn-lg" type="submit">Kirim pesan</button><p class="form-status" id="form-status" role="status"></p></form>
+ <div class="contact-list">
+  <a class="contact-item rv" href="mailto:halo@agronusa.id"><span class="icon-box"><img src="assets/icons/mail.svg" alt=""></span><div><strong>Email</strong><span>halo@agronusa.id</span></div></a>
+  <a class="contact-item rv" href="https://wa.me/6280000000000"><span class="icon-box"><img src="assets/icons/chat.svg" alt=""></span><div><strong>WhatsApp</strong><span>+62 800-0000-0000</span></div></a>
+  <div class="social rv"><h3>Media sosial</h3><div><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Facebook</a><a href="#">TikTok</a></div></div>
+ </div></div></section>
+</main>
+<footer class="footer">
+ <div class="container">
+  <div class="footer-grid">
+   <div><a class="brand" href="index.html" aria-label="AgroNusa, ke beranda"><img class="bf" src="assets/images/logo-agronusa.png" alt="AgroNusa" width="102" height="84"></a><p style="max-width:340px;margin-top:18px">Portal informasi agro Nusantara: pertanian, perkebunan, peternakan, perikanan, dan teknologi agro.</p></div>
+   <div><h4>Kategori</h4><div class="footer-links"><a href="pertanian.html">Pertanian</a><a href="perkebunan.html">Perkebunan</a><a href="peternakan.html">Peternakan</a><a href="perikanan.html">Perikanan</a><a href="teknologi-agro.html">Teknologi Agro</a></div></div>
+   <div><h4>Halaman</h4><div class="footer-links"><a href="index.html">Beranda</a><a href="tentang.html">Tentang</a><a href="kategori.html">Kategori</a><a href="artikel.html">Artikel</a><a href="kontak.html">Kontak</a></div></div>
+   <div><h4>Hubungi</h4><div class="footer-links"><a href="mailto:halo@agronusa.id">halo@agronusa.id</a><a href="https://wa.me/6280000000000">WhatsApp</a></div></div>
+  </div>
+  <div class="copyright"><span>&copy; 2026 AgroNusa. Seluruh hak dilindungi.</span><span>Informasi bersifat umum; sesuaikan dengan kondisi lahan dan arahan penyuluh setempat.</span></div>
+ </div>
+</footer>
+<script src="js/main.js?v=1794827931"></script>
+</body>
+</html>

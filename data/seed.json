@@ -1,0 +1,754 @@
+{
+ "categories": [
+  {
+   "slug": "pertanian",
+   "name": "Pertanian",
+   "sort": 1,
+   "arch_sort": 3,
+   "theme": "t-pertanian",
+   "icon": "padi",
+   "short_desc": "Padi, jagung, sayuran, dan buah: sumber pangan harian dan pemasukan petani.",
+   "seo_desc": "Padi, jagung, sayuran, dan buah: sumber pangan harian dan pemasukan petani.",
+   "hero_lead": "Dari sawah sampai kebun sayur: dasar budidaya tanaman pangan dan hortikultura yang praktis dipakai.",
+   "kom_kicker": "Tanaman pangan dan hortikultura",
+   "kom_title": "Komoditas utama pertanian.",
+   "kom_note": "Angka bersifat perkiraan umum dan dapat berbeda menurut varietas serta daerah.",
+   "komoditas": [
+    {
+     "name": "Padi",
+     "icon": "padi",
+     "description": "Tanaman pangan utama, ditanam di sawah irigasi maupun tadah hujan.",
+     "facts": [
+      [
+       "Panen",
+       "±100–130 hari"
+      ],
+      [
+       "pH tanah",
+       "5,5–7,0"
+      ],
+      [
+       "Tips",
+       "Tanam jajar legowo"
+      ]
+     ],
+     "featured": 0,
+     "sort": 1
+    },
+    {
+     "name": "Jagung",
+     "icon": "jagung",
+     "description": "Untuk pangan dan pakan ternak; relatif mudah dirawat di lahan kering.",
+     "facts": [
+      [
+       "Panen",
+       "±85–110 hari"
+      ],
+      [
+       "Suhu ideal",
+       "23–30 °C"
+      ],
+      [
+       "Tips",
+       "Tanam saat tanah lembap"
+      ]
+     ],
+     "featured": 0,
+     "sort": 2
+    },
+    {
+     "name": "Sayuran",
+     "icon": "sayur",
+     "description": "Cabai, tomat, sawi, kangkung: perputaran cepat dan cocok untuk lahan sempit.",
+     "facts": [
+      [
+       "Sawi",
+       "±25–40 hari"
+      ],
+      [
+       "Cabai",
+       "mulai panen ±3–4 bulan"
+      ],
+      [
+       "Tips",
+       "Rotasi tanaman"
+      ]
+     ],
+     "featured": 0,
+     "sort": 3
+    },
+    {
+     "name": "Buah",
+     "icon": "buah",
+     "description": "Mangga, pisang, jeruk, semangka: nilai jual baik bila mutu terjaga.",
+     "facts": [
+      [
+       "Semangka",
+       "±60–80 hari"
+      ],
+      [
+       "Pisang",
+       "berbuah ±10–14 bulan"
+      ],
+      [
+       "Tips",
+       "Panen di tingkat matang tepat"
+      ]
+     ],
+     "featured": 0,
+     "sort": 4
+    }
+   ],
+   "compare": null,
+   "tips_kicker": "Tips budidaya",
+   "tips_title": "Lima kebiasaan yang membantu hasil lebih baik.",
+   "tips_intro": "Prinsip ini berlaku umum untuk pertanian. Sesuaikan dengan kondisi dan arahan penyuluh di daerah Anda.",
+   "tips_soft": 1,
+   "tips": [
+    {
+     "title": "Cek tanah dulu",
+     "text": "Ukur pH dan kenali jenis tanah sebelum menentukan jenis tanaman dan pupuk.",
+     "sort": 1
+    },
+    {
+     "title": "Pakai benih bermutu",
+     "text": "Pilih benih bersertifikat atau varietas yang sudah terbukti cocok di daerah Anda.",
+     "sort": 2
+    },
+    {
+     "title": "Pupuk berimbang",
+     "text": "Beri pupuk sesuai kebutuhan tanaman; berlebihan menambah biaya dan bisa merusak tanah.",
+     "sort": 3
+    },
+    {
+     "title": "Pantau hama rutin",
+     "text": "Periksa tanaman tiap beberapa hari dan terapkan pengendalian hama terpadu (PHT).",
+     "sort": 4
+    },
+    {
+     "title": "Catat semuanya",
+     "text": "Tanggal tanam, pupuk, biaya, dan hasil panen membantu Anda menghitung untung rugi.",
+     "sort": 5
+    }
+   ],
+   "show_related": 1,
+   "cta_title": "Punya pertanyaan soal pertanian?",
+   "cta_text": "Kirim pertanyaan Anda; kami bantu carikan informasinya.",
+   "cta2_label": "Kategori Lain",
+   "cta2_url": "kategori.php"
+  },
+  {
+   "slug": "perkebunan",
+   "name": "Perkebunan",
+   "sort": 2,
+   "arch_sort": 1,
+   "theme": "t-perkebunan",
+   "icon": "kopi",
+   "short_desc": "Kopi, kelapa sawit, kelapa, dan tebu: tanaman jangka panjang untuk pasar luas.",
+   "seo_desc": "Kopi, kelapa sawit, kelapa, dan tebu: tanaman jangka panjang untuk pasar luas.",
+   "hero_lead": "Tanaman tahunan butuh perencanaan panjang. Kenali karakter, umur produktif, dan perawatan utamanya.",
+   "kom_kicker": "Tanaman tahunan bernilai ekonomi",
+   "kom_title": "Komoditas utama perkebunan.",
+   "kom_note": "Angka bersifat perkiraan umum dan dapat berbeda menurut varietas serta daerah.",
+   "komoditas": [
+    {
+     "name": "Kopi",
+     "icon": "kopi",
+     "description": "Arabika dan robusta punya ketinggian tanam serta cita rasa yang berbeda.",
+     "facts": [
+      [
+       "Arabika",
+       "±1.000–2.000 mdpl"
+      ],
+      [
+       "Robusta",
+       "±100–800 mdpl"
+      ],
+      [
+       "Tips",
+       "Petik buah yang sudah merah"
+      ]
+     ],
+     "featured": 0,
+     "sort": 1
+    },
+    {
+     "name": "Kelapa sawit",
+     "icon": "sawit",
+     "description": "Penghasil minyak nabati; panen berupa tandan buah segar (TBS).",
+     "facts": [
+      [
+       "Mulai berbuah",
+       "±3 tahun"
+      ],
+      [
+       "Umur produktif",
+       "±25 tahun"
+      ],
+      [
+       "Tips",
+       "Panen TBS yang matang"
+      ]
+     ],
+     "featured": 0,
+     "sort": 2
+    },
+    {
+     "name": "Kelapa",
+     "icon": "kelapa",
+     "description": "Serba guna: air, daging buah, kopra, santan, hingga sabut dan tempurung.",
+     "facts": [
+      [
+       "Genjah",
+       "±3–4 tahun"
+      ],
+      [
+       "Dalam",
+       "±6–8 tahun"
+      ],
+      [
+       "Tips",
+       "Manfaatkan semua bagian"
+      ]
+     ],
+     "featured": 0,
+     "sort": 3
+    },
+    {
+     "name": "Tebu",
+     "icon": "tebu",
+     "description": "Bahan baku gula; bisa dikepras sehingga satu tanam dipanen beberapa kali.",
+     "facts": [
+      [
+       "Panen",
+       "±10–12 bulan"
+      ],
+      [
+       "Keprasan",
+       "beberapa kali"
+      ],
+      [
+       "Tips",
+       "Giling cepat setelah tebang"
+      ]
+     ],
+     "featured": 0,
+     "sort": 4
+    }
+   ],
+   "compare": null,
+   "tips_kicker": "Tips budidaya",
+   "tips_title": "Lima kebiasaan yang membantu hasil lebih baik.",
+   "tips_intro": "Prinsip ini berlaku umum untuk perkebunan. Sesuaikan dengan kondisi dan arahan penyuluh di daerah Anda.",
+   "tips_soft": 1,
+   "tips": [
+    {
+     "title": "Rencanakan jangka panjang",
+     "text": "Hitung biaya tanam sampai tanaman menghasilkan, karena pendapatan baru datang bertahun kemudian.",
+     "sort": 1
+    },
+    {
+     "title": "Peremajaan terjadwal",
+     "text": "Tanaman tua hasilnya menurun; ganti bertahap agar kebun tetap produktif.",
+     "sort": 2
+    },
+    {
+     "title": "Pangkas dan jaga naungan",
+     "text": "Pemangkasan dan naungan yang tepat menjaga produktivitas, terutama pada kopi.",
+     "sort": 3
+    },
+    {
+     "title": "Jaga kebersihan kebun",
+     "text": "Singkirkan gulma dan sisa tanaman sakit supaya hama dan penyakit tidak menyebar.",
+     "sort": 4
+    },
+    {
+     "title": "Perhatikan pascapanen",
+     "text": "Mutu hasil ditentukan juga oleh cara memanen, mengeringkan, dan menyimpan.",
+     "sort": 5
+    }
+   ],
+   "show_related": 1,
+   "cta_title": "Punya pertanyaan soal perkebunan?",
+   "cta_text": "Kirim pertanyaan Anda; kami bantu carikan informasinya.",
+   "cta2_label": "Kategori Lain",
+   "cta2_url": "kategori.php"
+  },
+  {
+   "slug": "peternakan",
+   "name": "Peternakan",
+   "sort": 3,
+   "arch_sort": 2,
+   "theme": "t-peternakan",
+   "icon": "sapi",
+   "short_desc": "Sapi, ayam, kambing, dan bebek: pilih sesuai modal, lahan, dan waktu Anda.",
+   "seo_desc": "Sapi, ayam, kambing, dan bebek: pilih sesuai modal, lahan, dan waktu Anda.",
+   "hero_lead": "Setiap ternak punya kebutuhan kandang, pakan, dan kesehatan sendiri. Mulailah dari yang paling sesuai kemampuan.",
+   "kom_kicker": "Ternak besar, kecil, dan unggas",
+   "kom_title": "Komoditas utama peternakan.",
+   "kom_note": "Angka bersifat perkiraan umum dan dapat berbeda menurut varietas serta daerah.",
+   "komoditas": [
+    {
+     "name": "Sapi",
+     "icon": "sapi",
+     "description": "Sapi potong maupun perah: modal besar, tetapi nilai jual per ekor tinggi.",
+     "facts": [
+      [
+       "Pakan hijauan",
+       "±10% bobot badan"
+      ],
+      [
+       "Kandang",
+       "kering, ventilasi baik"
+      ],
+      [
+       "Tips",
+       "Jadwalkan cek kesehatan"
+      ]
+     ],
+     "featured": 0,
+     "sort": 1
+    },
+    {
+     "name": "Ayam",
+     "icon": "ayam",
+     "description": "Pedaging, petelur, atau kampung; perputaran modal paling cepat.",
+     "facts": [
+      [
+       "Pedaging",
+       "panen ±30–35 hari"
+      ],
+      [
+       "Petelur",
+       "bertelur ±18–20 minggu"
+      ],
+      [
+       "Tips",
+       "Jaga biosekuriti"
+      ]
+     ],
+     "featured": 0,
+     "sort": 2
+    },
+    {
+     "name": "Kambing",
+     "icon": "kambing",
+     "description": "Kambing Kacang, PE, dan Boer cocok untuk skala rumah tangga.",
+     "facts": [
+      [
+       "Bunting",
+       "±5 bulan"
+      ],
+      [
+       "Kandang",
+       "panggung, mudah dibersihkan"
+      ],
+      [
+       "Tips",
+       "Pisahkan yang sakit"
+      ]
+     ],
+     "featured": 0,
+     "sort": 3
+    },
+    {
+     "name": "Bebek",
+     "icon": "bebek",
+     "description": "Itik petelur dan pedaging; tahan penyakit dan mudah beradaptasi.",
+     "facts": [
+      [
+       "Petelur",
+       "bertelur ±5–6 bulan"
+      ],
+      [
+       "Jenis",
+       "Alabio, Tegal, Mojosari"
+      ],
+      [
+       "Tips",
+       "Sediakan air minum bersih"
+      ]
+     ],
+     "featured": 0,
+     "sort": 4
+    }
+   ],
+   "compare": null,
+   "tips_kicker": "Tips budidaya",
+   "tips_title": "Lima kebiasaan yang membantu hasil lebih baik.",
+   "tips_intro": "Prinsip ini berlaku umum untuk peternakan. Sesuaikan dengan kondisi dan arahan penyuluh di daerah Anda.",
+   "tips_soft": 1,
+   "tips": [
+    {
+     "title": "Kandang dulu, ternak kemudian",
+     "text": "Siapkan kandang yang kering, bersih, dan berventilasi sebelum ternak datang.",
+     "sort": 1
+    },
+    {
+     "title": "Beli bibit dari sumber jelas",
+     "text": "Pilih bibit sehat dan karantina ternak baru sebelum digabung.",
+     "sort": 2
+    },
+    {
+     "title": "Beri pakan teratur",
+     "text": "Jumlah dan jadwal pakan yang konsisten menekan sakit dan pemborosan.",
+     "sort": 3
+    },
+    {
+     "title": "Cegah, jangan menunggu sakit",
+     "text": "Vaksinasi dan obat sebaiknya mengikuti arahan dokter hewan atau petugas peternakan setempat.",
+     "sort": 4
+    },
+    {
+     "title": "Laporkan gejala menular",
+     "text": "Bila ada ternak mati mendadak atau gejala menular, hubungi petugas kesehatan hewan.",
+     "sort": 5
+    }
+   ],
+   "show_related": 1,
+   "cta_title": "Punya pertanyaan soal peternakan?",
+   "cta_text": "Kirim pertanyaan Anda; kami bantu carikan informasinya.",
+   "cta2_label": "Kategori Lain",
+   "cta2_url": "kategori.php"
+  },
+  {
+   "slug": "perikanan",
+   "name": "Perikanan",
+   "sort": 4,
+   "arch_sort": 4,
+   "theme": "t-perikanan",
+   "icon": "ikan",
+   "short_desc": "Lele, nila, udang, dan bandeng: kunci utamanya selalu kualitas air.",
+   "seo_desc": "Lele, nila, udang, dan bandeng: kunci utamanya selalu kualitas air.",
+   "hero_lead": "Budidaya perikanan berhasil atau gagal di kualitas air dan manajemen pakan. Pahami dasarnya lebih dulu.",
+   "kom_kicker": "Budidaya ikan, udang, dan air payau",
+   "kom_title": "Komoditas utama perikanan.",
+   "kom_note": "Angka bersifat perkiraan umum dan dapat berbeda menurut varietas serta daerah.",
+   "komoditas": [
+    {
+     "name": "Lele",
+     "icon": "lele",
+     "description": "Tahan kondisi air kurang ideal; populer di kolam terpal dan bioflok.",
+     "facts": [
+      [
+       "Panen",
+       "±2,5–3 bulan"
+      ],
+      [
+       "Wadah",
+       "kolam tanah/terpal"
+      ],
+      [
+       "Tips",
+       "Ganti air bila keruh"
+      ]
+     ],
+     "featured": 0,
+     "sort": 1
+    },
+    {
+     "name": "Nila",
+     "icon": "nila",
+     "description": "Mudah dipelihara di kolam, keramba, atau jaring apung.",
+     "facts": [
+      [
+       "Panen",
+       "±4–6 bulan"
+      ],
+      [
+       "Suhu air",
+       "25–30 °C"
+      ],
+      [
+       "Tips",
+       "Padat tebar sesuai wadah"
+      ]
+     ],
+     "featured": 0,
+     "sort": 2
+    },
+    {
+     "name": "Udang",
+     "icon": "udang",
+     "description": "Vaname umum dibudidayakan di tambak; menuntut manajemen air ketat.",
+     "facts": [
+      [
+       "Panen",
+       "±90–120 hari"
+      ],
+      [
+       "Wadah",
+       "tambak"
+      ],
+      [
+       "Tips",
+       "Ukur kualitas air rutin"
+      ]
+     ],
+     "featured": 0,
+     "sort": 3
+    },
+    {
+     "name": "Bandeng",
+     "icon": "bandeng",
+     "description": "Ikan air payau yang tahan perubahan salinitas; pakan alami penting.",
+     "facts": [
+      [
+       "Pembesaran",
+       "±4–6 bulan"
+      ],
+      [
+       "Wadah",
+       "tambak air payau"
+      ],
+      [
+       "Tips",
+       "Jaga pakan alami (kelekap)"
+      ]
+     ],
+     "featured": 0,
+     "sort": 4
+    }
+   ],
+   "compare": null,
+   "tips_kicker": "Tips budidaya",
+   "tips_title": "Lima kebiasaan yang membantu hasil lebih baik.",
+   "tips_intro": "Prinsip ini berlaku umum untuk perikanan. Sesuaikan dengan kondisi dan arahan penyuluh di daerah Anda.",
+   "tips_soft": 1,
+   "tips": [
+    {
+     "title": "Ukur kualitas air",
+     "text": "Pantau pH, suhu, oksigen terlarut, dan amonia; air yang buruk penyebab utama kematian ikan.",
+     "sort": 1
+    },
+    {
+     "title": "Pilih benih unggul",
+     "text": "Benih seragam, aktif, dan bebas penyakit memberi hasil lebih stabil.",
+     "sort": 2
+    },
+    {
+     "title": "Jangan kelebihan pakan",
+     "text": "Sisa pakan membusuk dan merusak air; beri secukupnya sesuai ukuran ikan.",
+     "sort": 3
+    },
+    {
+     "title": "Sesuaikan padat tebar",
+     "text": "Jumlah ikan per luas atau volume harus sesuai kemampuan wadah dan peralatan.",
+     "sort": 4
+    },
+    {
+     "title": "Siapkan rencana panen",
+     "text": "Tentukan ukuran jual dan pembeli sebelum panen agar harga tidak jatuh.",
+     "sort": 5
+    }
+   ],
+   "show_related": 1,
+   "cta_title": "Punya pertanyaan soal perikanan?",
+   "cta_text": "Kirim pertanyaan Anda; kami bantu carikan informasinya.",
+   "cta2_label": "Kategori Lain",
+   "cta2_url": "kategori.php"
+  },
+  {
+   "slug": "teknologi-agro",
+   "name": "Teknologi Agro",
+   "sort": 5,
+   "arch_sort": 5,
+   "theme": "t-teknologi",
+   "icon": "drone",
+   "short_desc": "Hidroponik, smart farming, dan drone tani untuk bekerja lebih efisien.",
+   "seo_desc": "Pengenalan hidroponik, smart farming, dan drone tani.",
+   "hero_lead": "Teknologi bukan harus mahal. Pilih yang menjawab masalah nyata di lahan Anda, lalu mulai dari skala kecil.",
+   "kom_kicker": "Tiga teknologi",
+   "kom_title": "Mana yang cocok untuk Anda?",
+   "kom_note": "Penjelasan berikut bersifat umum untuk membantu Anda memilih titik mulai.",
+   "komoditas": [
+    {
+     "name": "Hidroponik",
+     "icon": "hidroponik",
+     "description": "Menanam tanpa tanah dengan larutan nutrisi. Cocok untuk lahan sempit, halaman rumah, bahkan atap.",
+     "facts": [
+      [
+       "Sistem umum",
+       "Sumbu, DFT, NFT"
+      ],
+      [
+       "pH larutan",
+       "±5,5–6,5"
+      ],
+      [
+       "Cocok untuk",
+       "Selada, kangkung, pakcoy"
+      ]
+     ],
+     "featured": 0,
+     "sort": 1
+    },
+    {
+     "name": "Smart farming",
+     "icon": "smart-farming",
+     "description": "Sensor kelembapan tanah, suhu, dan cuaca terhubung ke aplikasi atau pengatur irigasi otomatis.",
+     "facts": [
+      [
+       "Fungsi",
+       "Pantau dan otomatisasi"
+      ],
+      [
+       "Butuh",
+       "Listrik/baterai, sinyal"
+      ],
+      [
+       "Cocok untuk",
+       "Lahan intensif"
+      ]
+     ],
+     "featured": 1,
+     "sort": 2
+    },
+    {
+     "name": "Drone tani",
+     "icon": "drone",
+     "description": "Untuk penyemprotan dan pemetaan lahan luas dengan lebih cepat dan merata.",
+     "facts": [
+      [
+       "Fungsi",
+       "Semprot dan petakan"
+      ],
+      [
+       "Butuh",
+       "Operator terlatih"
+      ],
+      [
+       "Catatan",
+       "Patuhi aturan penerbangan"
+      ]
+     ],
+     "featured": 0,
+     "sort": 3
+    }
+   ],
+   "compare": {
+    "kicker": "Perbandingan cepat",
+    "title": "Pilih sesuai kebutuhan.",
+    "note": "Penilaian bersifat kualitatif dan umum.",
+    "rows": [
+     [
+      "Teknologi",
+      "Cocok untuk",
+      "Modal awal",
+      "Tingkat kesulitan"
+     ],
+     [
+      "Hidroponik",
+      "Lahan sempit, sayuran daun",
+      "Rendah–sedang",
+      "Mudah–sedang"
+     ],
+     [
+      "Smart farming",
+      "Lahan intensif, pemantauan rutin",
+      "Sedang–tinggi",
+      "Sedang"
+     ],
+     [
+      "Drone tani",
+      "Lahan luas, penyemprotan, pemetaan",
+      "Tinggi (atau sewa jasa)",
+      "Perlu operator terlatih"
+     ]
+    ]
+   },
+   "tips_kicker": "Mulai dari yang kecil",
+   "tips_title": "Lima langkah mengadopsi teknologi agro.",
+   "tips_intro": "Teknologi yang mahal belum tentu tepat. Mulailah dari masalah nyata, lalu uji pelan-pelan.",
+   "tips_soft": 0,
+   "tips": [
+    {
+     "title": "Tentukan masalahnya",
+     "text": "Apa yang ingin diperbaiki: tenaga, air, waktu, atau hasil?",
+     "sort": 1
+    },
+    {
+     "title": "Coba skala kecil",
+     "text": "Uji di satu petak atau satu rak sebelum memperluas.",
+     "sort": 2
+    },
+    {
+     "title": "Hitung biaya dan manfaat",
+     "text": "Bandingkan modal, biaya perawatan, dan penghematan nyata.",
+     "sort": 3
+    },
+    {
+     "title": "Latih pengguna",
+     "text": "Teknologi hanya berguna bila orangnya bisa memakai dan merawatnya.",
+     "sort": 4
+    },
+    {
+     "title": "Perluas bertahap",
+     "text": "Tambah skala setelah hasilnya terbukti.",
+     "sort": 5
+    }
+   ],
+   "show_related": 0,
+   "cta_title": "Ingin berdiskusi soal teknologi agro?",
+   "cta_text": "Ceritakan lahan dan kebutuhan Anda.",
+   "cta2_label": "Baca Artikel",
+   "cta2_url": "artikel.php"
+  }
+ ],
+ "articles": [
+  {
+   "slug": "ph-tanah",
+   "category": "pertanian",
+   "published_at": "2026-11-12",
+   "title": "Cara membaca pH tanah sebelum tanam",
+   "excerpt": "pH menentukan apakah unsur hara bisa diserap akar. Cek dulu sebelum membeli pupuk.",
+   "tips": "Ambil contoh tanah dari beberapa titik lalu campurkan.\nUkur dengan alat uji pH atau uji laboratorium.\nSebagian besar tanaman pangan nyaman di pH sekitar 5,5–7.\nBila terlalu asam, kapur pertanian (dolomit) bisa membantu.",
+   "status": 1
+  },
+  {
+   "slug": "petik-merah",
+   "category": "perkebunan",
+   "published_at": "2026-11-05",
+   "title": "Panen kopi: mengapa harus petik merah",
+   "excerpt": "Buah yang dipetik tepat matang memberi rasa dan harga yang lebih baik.",
+   "tips": "Petik buah yang sudah merah penuh, jangan campur dengan yang hijau.\nPanen bertahap karena buah matang tidak serempak.\nSegera proses setelah petik agar tidak terfermentasi tak terkendali.\nKeringkan di tempat bersih dan terlindung dari hujan.",
+   "status": 1
+  },
+  {
+   "slug": "biosekuriti",
+   "category": "peternakan",
+   "published_at": "2026-10-29",
+   "title": "Biosekuriti kandang: langkah sederhana yang sering terlewat",
+   "excerpt": "Mencegah penyakit masuk jauh lebih murah daripada mengobati.",
+   "tips": "Batasi orang dan kendaraan yang masuk area kandang.\nSediakan tempat cuci tangan dan alas kaki khusus kandang.\nKarantina ternak baru sebelum digabung.\nBersihkan kandang rutin dan buang bangkai dengan benar.",
+   "status": 1
+  },
+  {
+   "slug": "air-kolam",
+   "category": "perikanan",
+   "published_at": "2026-10-22",
+   "title": "Menjaga kualitas air kolam lele",
+   "excerpt": "Air yang terjaga membuat ikan tumbuh seragam dan tidak mudah sakit.",
+   "tips": "Beri pakan secukupnya, angkat sisa yang tidak termakan.\nGanti sebagian air saat mulai keruh atau berbau.\nPerhatikan perilaku ikan: megap-megap di permukaan tanda oksigen kurang.\nCatat tanggal tebar, pakan, dan ganti air.",
+   "status": 1
+  },
+  {
+   "slug": "hidroponik-sumbu",
+   "category": "teknologi-agro",
+   "published_at": "2026-10-15",
+   "title": "Hidroponik pemula: mulai dari sistem sumbu",
+   "excerpt": "Sistem sumbu tidak butuh pompa listrik, cocok untuk mencoba.",
+   "tips": "Siapkan wadah, nampan tanam, media (rockwool/sekam bakar), dan sumbu.\nGunakan nutrisi AB mix sesuai takaran kemasan.\nPilih sayuran daun seperti selada atau kangkung.\nTaruh di tempat yang mendapat cahaya matahari cukup.",
+   "status": 1
+  },
+  {
+   "slug": "catat-budidaya",
+   "category": "umum",
+   "published_at": "2026-10-08",
+   "title": "Mencatat budidaya: kebiasaan kecil berdampak besar",
+   "excerpt": "Catatan sederhana membuat keputusan musim berikutnya lebih tepat.",
+   "tips": "Tulis tanggal tanam atau tebar, input, dan biaya.\nCatat kejadian penting: hama, cuaca ekstrem, penyakit.\nHitung hasil dibanding biaya setiap akhir musim.\nGunakan buku tulis atau spreadsheet, yang penting rutin.",
+   "status": 1
+  }
+ ]
+}
